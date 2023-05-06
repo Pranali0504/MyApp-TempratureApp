@@ -1,0 +1,76 @@
+.appbg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dce3eb;
+}
+
+.myapp {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 600px;
+  border-radius: 20px;
+  margin: 1% 0 5% 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #43298e;
+  box-shadow: 10px 10px 8px 10px #cecece;
+}
+
+.temprature {
+  display: flex;
+  height: 45%;
+  width: 60%;
+  background-color: #eee8ff;
+  border-radius: 100%;
+  border-color: rgb(173, 146, 24);
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  margin: 10% 0 2% 0;
+  color: #373737;
+
+}
+
+.newSection {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tempratureinc {
+  display: flex;
+  align-content: start;
+  height: 60%;
+  width: 20%;
+  background-color: #bbb;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9633d;
+  font-size: 50px;
+  margin: 10% 0 10% 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.tempraturedec {
+  display: flex;
+  align-content: start;
+  height: 60%;
+  width: 20%;
+  background-color: #bbb;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9633d;
+  font-size: 50px;
+  margin: 10% 0 10% 0;
+  color: #fff;
+  font-weight: 600;
+}
