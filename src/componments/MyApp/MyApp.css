@@ -74,3 +74,159 @@
   color: #fff;
   font-weight: 600;
 }
+
+
+
+@media only screen and (max-width: 1024px) {
+
+  .myapp {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 600px;
+    border-radius: 20px;
+    margin: 1% 0 5% 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #43298e;
+    box-shadow: 10px 10px 8px 10px #cecece;
+  }
+  
+  .temprature {
+    display: flex;
+    height: 30%;
+    width: 50%;
+    background-color: #eee8ff;
+    border-radius: 100%;
+    border-color: rgb(173, 146, 24);
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin: 10% 0 2% 0;
+    color: #373737;
+  
+  }
+  
+  .newSection {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .tempratureinc {
+    display: flex;
+    align-content: start;
+    height: 50%;
+    width: 20%;
+    background-color: #bbb;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9633d;
+    font-size: 40px;
+    margin: 10% 0 10% 0;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .tempraturedec {
+    display: flex;
+    align-content: start;
+    height: 50%;
+    width: 20%;
+    background-color: #bbb;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9633d;
+    font-size: 40px;
+    margin: 10% 0 10% 0;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .myapp {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 600px;
+    border-radius: 20px;
+    margin: 1% 0 5% 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #43298e;
+    box-shadow: 10px 10px 8px 10px #cecece;
+  }
+  
+  .temprature {
+    display: flex;
+    height: 30%;
+    width: 60%;
+    background-color: #eee8ff;
+    border-radius: 100%;
+    border-color: rgb(173, 146, 24);
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10% 0 2% 0;
+    color: #373737;
+  
+  }
+  
+  .newSection {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .tempratureinc {
+    display: flex;
+    align-content: start;
+    height: 50%;
+    width: 20%;
+    background-color: #bbb;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9633d;
+    font-size: 40px;
+    margin: 10% 0 10% 0;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .tempraturedec {
+    display: flex;
+    align-content: start;
+    height: 50%;
+    width: 20%;
+    background-color: #bbb;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9633d;
+    font-size: 40px;
+    margin: 10% 0 10% 0;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+
+
+}

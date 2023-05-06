@@ -3,23 +3,27 @@ import "./MyApp.css";
 
 function MyApp() {
   const [temperatureValue, setTemperatureValue] = useState(10);
-  const [temperatureColor, setTemperatureColor] = useState();
+  const [temperatureColor, setTemperatureColor] = useState("cold");
 
   const increaseTemperature = () => {
+    if (temperatureValue === 30) return;
+
     const newTemperature = temperatureValue + 1;
-    if (newTemperature >= 15) {
-      setTemperatureColor("red");
-      console.log(setTemperatureColor)
-    }
+
     setTemperatureValue(newTemperature);
+    if (newTemperature >= 15) {
+      setTemperatureColor("hot");
+    }
   };
 
   const decreaseTemperature = () => {
+    if (temperatureValue === 0) return;
+
     const newTemperature = temperatureValue - 1;
-    if (newTemperature < 20) {
-      setTemperatureColor("orange");
-    }
     setTemperatureValue(newTemperature);
+    if (newTemperature < 20) {
+      setTemperatureColor("cold");
+    }
   };
 
   return (
